@@ -1,0 +1,20 @@
+body {
+    font-family: comic Verdana, Geneva, Tahoma, sans-serif;
+    background-color: green;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    width: 50%;
+    margin: 0 auto;
+}
+.container {
+    width: 50%; 
+    margin: 0 auto; 
+    background-color: #fff; 
+    padding: 10px; 
+}
+button {
+    background-color: green;
+}
+

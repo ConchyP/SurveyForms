@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>GeeksforGeeks Survey Form</h1>
+    <div class="container">
+    <form action="/submit" method="post">
+        <div><label for="name">Name</label></div>
+        <div><input type="text" id="name" name="name required" placeholder="Enter your name" /></div>
+        <br/>
+        <div><label for="email">Email</label></div>
+        <div><input type="text" id="email" name="email required" placeholder="Enter your email" /></div>
+        <br />
+        <div><label for="age">Age</label></div>
+        <div><input type="text" id="age" name="edad required" placeholder="Enter your age" /></div>
+        <br />
+        <div><label for="option">Which option best describes you?</label></div>
+        <div>
+          <select id="option" name="Student">
+            <option value="Student">Student</option>
+            <option values="Teacher">Teacher</option>
+          </select>
+        </div>
+        <br />
+        <div>
+          <label for="radio">Would you recommed GeeksforGeeks to a freind?</label>
+        </div>
+        <div><input type="radio" id="yes" name="option" value="yes" />Yes</div>
+        <div><input type="radio" id="no" name="option" values="no" />No</div>
+        <div>
+          <input type="radio" id="maybe" name="option" values="maybe" />Maybe
+        </div>
+        <br />
+        <div>
+          <label for="comments">Languages and Frameworks known (Check all that apply)</label>
+        </div>
+        <div>
+          <input type="checkbox" id="option1" name="C" value="option1" />C
+        </div>
+        <div>
+          <input type="checkbox" id="option2" name="C++" value="option2" />C++
+        </div>
+        <div>
+          <input type="checkbox" id="option3" name="C#" value="option3" />C#
+        </div>
+        <div>
+          <input type="checkbox" id="option4" name="Java" value="option4" />Java
+        </div>
+        <div>
+          <input type="checkbox" id="option5" name="Phyton" values="option5" />Phyton
+        </div>
+        <div>
+          <input type="checkbox" id="option6" name="JavaScript" values="option6" />JavaScript
+        </div>
+        <div>
+          <input type="checkbox" id="option7" name="React" values="option7" />React
+        </div>
+        <div>
+          <input type="checkbox" id="option8" name="Angular" values="option8" />Angular
+        </div>
+        <div>
+          <input type="checkbox" id="option9" name="Django" values="option9" />Django
+        </div>
+        <div>
+          <input type="checkbox" id="option10" name="Spring" values="option10" />Spring
+        </div>
+        <br />
+        <div><label for="comments">Comments of suggestion</label></div>
+        <div><textarea id="comments" name="comments"></textarea></div>
+        <br />
+        <button type="submit">Submit</button>
+      </form>
+      </div>
+    
+</body>
+</html>
